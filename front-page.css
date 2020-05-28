@@ -59,14 +59,18 @@ a:hover{
     flex-direction: row-reverse;
 }
 .news-pic{
-    height: 110px;
-    width: 110px;
+    height: 130px;
+    width: 115px;
     background-image: url("./images/earth.png");
     background-size: 7rem;
     background-repeat: no-repeat; 
 }
-.electro-project details,.news-project details{
-    flex-basis: 300px;
+.electro-project details{
+    flex-basis: 225px;
+    color: #ffcce7;
+}
+.news-project details{
+    flex-basis: 130px;
     color: #ffcce7;
 }
 details a{
