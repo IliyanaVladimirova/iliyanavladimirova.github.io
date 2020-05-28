@@ -8,8 +8,9 @@ html,body,.bg{
     height: 100%;
 }
 .bg{
-    background-color:#000033;
-    background-repeat: repeat-y;
+    background-color:#0e0119;
+    /* #000033; */
+    /* background-repeat: repeat-y; */
     background-size: cover;
     background-image: url("./images/glitter.png");
     background-repeat: repeat;
@@ -29,9 +30,45 @@ nav{
     justify-content: flex-end;
 }
 .nav-wrapper a{
-padding: .7rem;
-font-weight: lighter;
-font-style: italic;
-font-size: 1.2rem;
-color: #ffcce7;
+    padding: .7rem;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #ffcce7;
+}
+/* -------------------------------------PROJECTS STYLES---------------------------------------- */
+.electro-project,.news-project{
+    display: flex;
+    align-items: center;
+}
+a {
+    color: #ffcce7;
+}
+a:hover{
+    scale: 1.5;
+    text-decoration: overline;
+}
+.electro-pic {
+    height: 135px;
+    width: 100px;
+    background-image: url("./images/light-bulb.png");
+    background-size: 5rem;
+    background-repeat: no-repeat; 
+}
+.news-project{
+    flex-direction: row-reverse;
+}
+.news-pic{
+    height: 110px;
+    width: 110px;
+    background-image: url("./images/earth.png");
+    background-size: 7rem;
+    background-repeat: no-repeat; 
+}
+.electro-project details,.news-project details{
+    flex-basis: 300px;
+    color: #ffcce7;
+}
+details a{
+    font-size: 20px;
 }
