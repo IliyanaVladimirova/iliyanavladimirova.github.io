@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="front-page.css">
-    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icomoon/style.css">
 </head>
 
 <body>
@@ -25,6 +25,21 @@
         </nav>
         <div class="container fluid">
             <h1>Hey there! Welcome to my portfolio</h1>
+            <section id="about">
+                <!-- <figure>
+                        <img src="./images/pic-of-me.jpeg" alt="Image of a girl" class=" fluid my-img">
+                    </figure> -->
+                <p>
+                    My names is Iliyana. I have a great interest in
+                    Front-end development, design and user experience, Javascript
+                    frameworks, more specifically Reactjs and I have knowledge in some of
+                    the back-end echnologies as well.
+                    I am still new at web development but I am willing to learn
+                    everyday and try my best to become a master.
+                    You can check out some of my projects
+                    and more information about me below.
+                </p>
+            </section>
             <section id="projects">
                 <div class="electro-project">
                     <figure class="electro-pic"></figure>
@@ -35,7 +50,7 @@
                             </a>
                         </summary>
                         <p>React based Electrical Services website.</p>
-                      </details> 
+                    </details>
                 </div>
                 <div class="news-project">
                     <figure class="news-pic"></figure>
@@ -44,14 +59,51 @@
                             <a href="">News page</a>
                         </summary>
                         <p>Example news magazine page created with vanilla js, and pure html and css</p>
-                      </details> 
+                    </details>
+                </div>
+                <div class="center">
+                    <button class="btn btn-more">See more projects</button>
+                </div>
+                <div class="none more-projects">
+                    <p>Coming Soon...</p>
                 </div>
             </section>
-            <section id="about">
-
+            <section class="skills">
+                <details>
+                    <summary>Some of my skills</summary>
+                    <p>I am constantly trying to upgrade my skills
+                        and to be in line with the newest in technologies and
+                        also I try to become better-currently I am self-studying
+                        with the SoftUni courses:"JS Advanced" and "ReactJS"
+                    </p>
+                </details>
+                <div class="skills-wrap">
+                    <figure class="skills-pic"></figure>
+                    <div class="flex">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <ul>
+                            <li>ReactJS</li>
+                            <li>SASS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </div>
+        <footer>
+            <div class="social">
+                <a href="" class="icon-facebook2"></a>
+                <a href="" class="icon-instagram"></a>
+                <a href="" class="icon-linkedin"></a>
+                <a href="" class="icon-mail">iliyana-ilieva@abv.bg</a>
+            </div>
+        </footer>
     </div>
+    <script src="./scripts/main-script.js"></script>
 </body>
 
 </html>
